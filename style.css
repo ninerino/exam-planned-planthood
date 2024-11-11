@@ -10,12 +10,11 @@
 body {
     background-color: #FCF6FC;
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .wrapper {
@@ -23,7 +22,7 @@ body {
     width: 100%;
     height: 100vh;
 
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .header {
@@ -59,12 +58,10 @@ body {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
-    .box-top img{
+    .box-top img, .box-bottom img{
         height: 80%;
     }
-    .box-bottom img{
-        height: 80%;
-    }
+   
 }
 
 /* NAVIGATION MENY */
@@ -94,6 +91,97 @@ body {
     li:hover {
         background-color: #b0aeae;
     }
+}
+
+
+
+/* *****MAIN***** */
+
+.main-h1{
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 500;
+    margin-top: 2rem;
+    color: #0A846E;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* wrapper runt cirkel o text */
+.top-main-box{ 
+    margin: 2rem;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap:1rem;
+    max-width: 95%;
+
+}
+
+/* cirkel i main */
+.circle-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-color: #0A846E;
+    
+
+}
+
+/* logo i cirkel */
+.top-main-figure{
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height:auto;
+}
+
+/* text ruta i main */
+.top-main-text{
+    gap:1rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* h2 text */
+.top-main-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* p text */
+.top-main-text p{
+    
+    font-size: 1.1rem;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+/* knapp */
+.så-tips-btn{
+    font-family: "Open Sans", sans-serif;
+    background-color: #0A846E;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    align-self: flex-end;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
 }
 
 /* ***FOOTER*** */
