@@ -23,58 +23,6 @@ body {
     border: 2px solid blue;
 }
 
-/* .header{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.header-img{
-    display: flex;
-    flex:1;
-    justify-content: center;
-    align-items: center;
-
-    border: 2px solid rgb(5, 153, 42);
-}
-/* satte en tillfällig storlek, tror vi måste ändra bilden till bakgrund iaf*/
-.header img {
-    width: 300px;
-    height: 300px;
-}
-
-/* .header-right{
-    display:flex;
-    flex-direction: column;
-    
-    width:300px;
-    height: 300px;
-    min-width: 200px;
-}
-
-.box-top{
-    background-color: #9E6D52;
-}
-
-.box-bottom{
-  
-   
-    background-color: #0A846E;
-}
-.box-top, .box-bottom{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    
-    
-}
-.box-top img, .box-bottom img{
-    width:30%;
-    height: auto;
-    
-} */
-
 .header {
     display: grid;
     width: 100%;
