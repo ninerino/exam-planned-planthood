@@ -1,7 +1,14 @@
-<<<<<<< HEAD
-Hej
-=======
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 1000px;
 }
->>>>>>> 9ca2815ef00785d2f794224f926020699b8473dc
+
+.header {
+}
+
+.header img {
+    height: 15rem;
+    width: 15rem;
+}
