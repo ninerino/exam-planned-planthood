@@ -60,8 +60,12 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
-
-
+.box-top img{
+    height: 80%;
+}
+.box-bottom img{
+    height: 80%;
+}
 /* ***FOOTER*** */
 
 
