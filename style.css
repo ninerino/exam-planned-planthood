@@ -59,13 +59,19 @@ body {
     background-color: #0A846E;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    
 }
 .box-top img{
-    height: 80%;
+    height:80%;
+    width: auto;
 }
 .box-bottom img{
-    height: 80%;
+    height:80%;
+    width: auto;
 }
+
+
+
 /* ***FOOTER*** */
 
 
