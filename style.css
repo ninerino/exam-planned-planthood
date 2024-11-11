@@ -78,22 +78,22 @@ body {
     align-items: center;
     font-size: 1.1rem;
     font-weight: 600;
-}
 
-li {
-    flex-grow: 1;
-    text-align: center;
-    transition: background-color 0.3s ease;
-    line-height: 3rem;
-}
-.navigation-menu a {
-    text-decoration: none;
-    color: inherit;
-}
+    li {
+        flex-grow: 1;
+        text-align: center;
+        transition: background-color 0.3s ease;
+        width: 25%;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        line-height: 3rem;
+    }
 
-
-li:hover {
-    background-color: #b0aeae;
+    li:hover {
+        background-color: #b0aeae;
+    }
 }
 
 /* ***FOOTER*** */
