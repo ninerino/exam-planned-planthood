@@ -61,7 +61,6 @@ body {
     .box-top img, .box-bottom img{
         height: 80%;
     }
-   
 }
 
 /* NAVIGATION MENY */
@@ -70,26 +69,26 @@ body {
     list-style-type: none;
     font-family: 'Maven Pro', sans-serif;
     color: #055647;
-    box-shadow: 0 1px 3px #055647;
-    height: 3rem;
+    border-bottom: 1px solid #0f9e84;
+    height: 3.75rem;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 600;
 
     li {
-        flex-grow: 1;
         text-align: center;
-        transition: background-color 0.3s ease;
         width: 25%;
     }
     a {
         text-decoration: none;
         color: inherit;
-        line-height: 3rem;
+        line-height: 3.75rem;
     }
 
     li:hover {
-        background-color: #b0aeae;
+        background-color: #0f9e84;
+        cursor: pointer;
+        color: white;
     }
 }
 
@@ -123,20 +122,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    
     width: 380px;
     height: 380px;
     border-radius: 50%;
     background-color: #0A846E;
-    
-
+    overflow: hidden;
 }
 
 /* logo i cirkel */
 .top-main-figure{
     height: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,10 +157,8 @@ body {
 
 /* p text */
 .top-main-text p{
-    
     font-size: 1.1rem;
     font-family: "Open Sans", sans-serif;
-
 }
 
 /* knapp */
@@ -181,7 +174,6 @@ body {
     cursor: pointer;
     align-self: flex-end;
     box-shadow: 0px 4px 4px 0px #00000040;
-
 }
 
 /* ***FOOTER*** */
