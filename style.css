@@ -397,7 +397,7 @@ footer a {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 600px) {
-   
+   /* Header */
     .header {
         grid-template-columns:auto 1fr;
         grid-template-rows:2;
@@ -419,6 +419,8 @@ footer a {
         height: 300px;
     }
 
+
+    /* Nav */
     .navigation-menu {
         display: none;
     }
@@ -426,6 +428,10 @@ footer a {
     .top-main-box, .bottom-main-box, .footer-img {
         display: flex;
         flex-direction: column-reverse;
+        text-align: center;
+    }
+    .top-main-text h2, .bottom-main-text h2{
+        align-self: center;
     }
 
     .så-tips-btn, .planterade-plantor-btn {
