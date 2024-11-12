@@ -393,3 +393,32 @@ footer a {
 .footer-navigation {
     box-shadow: 0px 4px 4px 0px #00000040;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    .header {
+        grid-template-columns: 1fr;
+    }
+
+    .navigation-menu {
+        display: none;
+    }
+
+    .top-main-box, .bottom-main-box, .footer-img {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .så-tips-btn, .planterade-plantor-btn {
+        align-self: center;
+    }
+
+    .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    hr {
+        width: 50%;
+    }
+}
