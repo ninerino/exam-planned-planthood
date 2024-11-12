@@ -227,6 +227,7 @@ h2 {
     border-radius: 9px;
     border: none;
     margin:.8rem .8rem ;
+    cursor: pointer;
 }
 
 .text-container {
