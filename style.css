@@ -75,20 +75,18 @@ body {
     align-items: center;
     font-size: 1.25rem;
     font-weight: 600;
+    justify-content: space-around;
 
-    li {
-        text-align: center;
-        width: 25%;
-    }
     a {
         text-decoration: none;
         color: inherit;
         line-height: 3.75rem;
+        text-align: center;
+        width: 25%;
     }
 
-    li:hover {
+    a:hover {
         background-color: #0f9e84;
-        cursor: pointer;
         color: white;
     }
 }
