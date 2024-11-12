@@ -153,6 +153,7 @@ body {
     font-size: 2rem;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
+    align-self: flex-start;
 }
 
 /* p text */
