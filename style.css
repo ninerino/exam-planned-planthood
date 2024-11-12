@@ -230,6 +230,12 @@ h2 {
     cursor: pointer;
 }
 
+.ta-bort-btn:hover{
+    background-color: #7e192f;
+    color: white;
+    
+}
+
 .text-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
