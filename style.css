@@ -253,6 +253,7 @@ h2 {
         grid-row: 2;
         margin:.8rem .8rem;
         margin-right: 0;
+        align-self: center;
     }
 
     h4 {
