@@ -482,4 +482,17 @@ h2{
 .bottom-main-box {
     row-gap: 3rem;
 }
+
+.footer-img {
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr;
+
+    .footer-right {
+        grid-row: 1;
+    }
+
+    .footer-left {
+        grid-row: 2;
+    }
+}
 }
