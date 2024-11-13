@@ -311,7 +311,6 @@ hr {
 }
 
 /* ***FOOTER*** */
-
 .footer-img {
     color: white;
     background-image: url('https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
@@ -320,6 +319,7 @@ hr {
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
     height: 30rem;
 }
 
@@ -328,7 +328,6 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background-color: rgba(0, 0, 0, 0.79);
     padding: 20px;
     position: relative;
@@ -485,7 +484,6 @@ h2{
 
 .footer-img {
     grid-template-columns: 1fr;
-    grid-row: 1fr 1fr;
 
     .footer-right {
         grid-row: 1;
