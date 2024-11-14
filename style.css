@@ -714,6 +714,28 @@ h2{
         }
     }
 
+    .mina-sidor-input input {
+
+        width: 31rem;
+       
+    }
+
+    .form-wrapper { /* Wrappar runt hela formen */
+        align-items: flex-start;
+        margin-left:1rem;
+
+    }
+    
+    .form-wrapper h2 {
+        align-self: center;
+       
+    }
+
+    .add-btn{
+        align-self: center ;
+    }
+    
+    /* Footer grid */
     .footer-grid{
         grid-template-columns: repeat(2, 1fr);
         
