@@ -98,7 +98,7 @@ body {
     font-weight: 600;
     justify-content: space-around;
 
-    /* Styler a i menyn med storlken och färg samt håller den klickbar */
+    /* Stylar a i menyn med storleken och färg samt håller den klickbar */
     a {
         text-decoration: none;
         color: inherit;
@@ -125,7 +125,7 @@ body {
     text-align: center;
 }
 
-/* wrapper runt cirkel o text */
+/* Wrapper runt cirkel o text */
 .top-main-box, .bottom-main-box {
     margin: 2rem;
     width: auto;
@@ -139,7 +139,7 @@ body {
     align-items: center;
 }
 
-/* cirkel i main */
+/* Cirkel i main */
 .circle-main {
     display: flex;
     align-items: center;
@@ -151,7 +151,7 @@ body {
     overflow: hidden;
 }
 
-/* text ruta i main */
+/* Text ruta i main */
 .top-main-text, .bottom-main-text {
     gap:1rem;
     margin-left: 2rem;
@@ -203,13 +203,13 @@ body {
     align-self: flex-start;
 }
 
-.show-more { /* Centrerar "Visa fler" */
+/* Centrerar "Visa fler" */
+.show-more { 
     display: flex;
     justify-content: center;
 }
 
 /* Nikkis sjukt fräna streck */
-
 main hr {
     border: none;
     border-top: 3px solid #055647;
@@ -236,7 +236,7 @@ main hr {
     font-weight: 600;
     text-align: center;
 }
-
+/* Grid gemensam styling */
 .grid-view-1,.grid-view-2,.grid-view-3,
 .grid-view-4,.grid-view-5,.grid-view-6 {
     display: flex;
@@ -244,7 +244,7 @@ main hr {
     box-shadow: 3px 4px 4px 0px #00000040;
     max-height: 25rem;
 }
-
+/* Ta-bort knapp */
 .ta-bort-btn{
     background-color: #B93857;
     color: white;
@@ -363,6 +363,7 @@ background-image: url(https://images.unsplash.com/photo-1518568403628-df55701ade
 /* Hover på soptunneikonen */
 .trash:hover {
     cursor: pointer;
+
 }
 
 /* Styling på boxen under korten */
@@ -383,7 +384,7 @@ background-image: url(https://images.unsplash.com/photo-1518568403628-df55701ade
     grid-template-columns: 1fr 1fr;
     height: 30rem;
 }
-
+/* Vänster footer column, overlay styling */
 .footer-left {
     display: flex;
     flex-direction: column;
@@ -394,17 +395,17 @@ background-image: url(https://images.unsplash.com/photo-1518568403628-df55701ade
     position: relative;
     font-family: 'Maven Pro';
 }
-
+/* Vänster footer column "h2" styling */
 .footer-left h2 {
     margin: 0;
     flex-grow: 1;
     display: flex;
     align-items: center;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 500;
     line-height: 75.2px;
 }
-
+/* Vänster footer column "contact info" styling*/
 .contact {
     display: flex;
     justify-content: space-between;
@@ -412,30 +413,30 @@ background-image: url(https://images.unsplash.com/photo-1518568403628-df55701ade
     width: 100%;
     margin-top: auto;
 }
-
+/* Vänster footer column, "nummer/mail" gap  */
 .phone, .mail {
     display: flex;
     align-items: center;
     gap: 8px;
 }
-
+/* Vänster footer column "icon" styling*/
 .phone i, .mail i {
     font-size: 1.5rem;
     color: #ffffff;
 }
-
+/* Vänster footer column, "p" styling*/
 .phone p, .mail p {
     margin: 0;
     font-size: 20px;
     font-weight: 400;
     color: #ffffff;
 }
-
+/* Footer right centrering */
 .footer-right {
     align-self: center;
     justify-self: center;
 }
-
+/* Footer "till toppen av sidan" länk styling*/
 footer a {
     text-decoration: none;
     color: inherit;
@@ -446,13 +447,15 @@ footer a {
     font-size: 24px;
     font-family: 'Open Sans';
 }
-
+/* Box-shadow under footer nav */
 .footer-navigation {
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 
 /**** Mina sidor styling ****/
+
+/* Header styling */
 .mina-sidor-logo {
     height: 20rem;
     background-image: url(https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
@@ -466,7 +469,7 @@ footer a {
     color: white;
     font-family: 'Maven Pro', sans-serif;
 }
-
+/* Wrapper för hela form sektionen */
 .form-wrapper {
     display: flex;
     flex-direction: column;
@@ -474,27 +477,27 @@ footer a {
     font-family: 'Open Sans', sans-serif;
     margin: 0 2rem 6rem 2rem;
 }
-
+/* Wrapper för bättre placering av h2 */
 .form-wrapper h2 {
     align-self: flex-start;
     margin: 2rem 0 1.25rem 0;
     font-size: 2rem;
     font-weight: 400;
 }
-
+/* Input wrapper för placering*/
 .input-wrapper {
     display: flex;
     flex-direction: column;
     width: 100%
 }
-
+/* Form label/input wrapper */
 .mina-sidor-input {
     display: flex;
     gap: 17px;
     width: 100%;
     margin-bottom: 2rem;
 }
-
+/* Form label/input wrapper styling */
 .mina-sidor-input input {
 
     width: 100%;
@@ -504,7 +507,7 @@ footer a {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 1.25rem;
 }
-
+/* Mina sidor grid 1 och 2 */
 .mina-sidor-planned-1, .mina-sidor-planned-2 {
     width: 100%;
     min-width: 800px;
@@ -514,13 +517,13 @@ footer a {
     margin-bottom: 4rem;
     padding: 0 1rem;
 }
-
+/* Styling för h2*/
 .mina-sidor-main h2 {
     margin-bottom: 1.5rem;
     font-size: 2rem;
     font-weight: 600;
 }
-
+/* Footer grid setup */
 .footer-grid {
     display: grid;
     background-color: #9E6D52;
@@ -528,7 +531,7 @@ footer a {
     column-gap: 1rem;
     padding: 0 2rem;
 
-
+    /* Footer img styling */
     .footer-image-1, .footer-image-2, .footer-image-3, .footer-image-4 {
         background-size: cover;
         background-position: center;
@@ -538,29 +541,25 @@ footer a {
         background-color: lightgray;
         opacity: 75%;
     }
-
+    /* Bakgrundsbilder */
     .footer-image-1 {
         background-image: url(https://plus.unsplash.com/premium_photo-1678344170545-c3edef92a16e?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     }
     .footer-image-2 {
         background-image: url(https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     }
-
     .footer-image-3 {
         background-image: url(https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     }
-
     .footer-image-4 {
         background-image: url(https://plus.unsplash.com/premium_photo-1681398651047-78491e34f66a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     }
-
-
 }
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 600px) {
-   /* Header */
+   /* Header grid setup mobile view*/
     .header {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr 1fr;
@@ -568,7 +567,6 @@ footer a {
     .header .header-img{
         grid-column: 1 / 3;
         grid-row: 1;
-
     }
     .header .box-top{
         grid-column: 1;
@@ -591,11 +589,17 @@ footer a {
         display: block;
     }
 
-    /* Nav */
+    /* Göm Nav i mobile view*/
     .navigation-menu {
         display: none;
     }
+    
+    /* Planned planthood h1 mobile view */
+    .main-h1 {
+        font-size: 2rem;
+    }
 
+    /* Top av main section Layout mobile view*/
     .top-main-box, .bottom-main-box, .footer-img {
         display: flex;
         flex-direction: column-reverse;
@@ -604,11 +608,11 @@ footer a {
     .top-main-text h2, .bottom-main-text h2{
         align-self: center;
     }
-
+    /* "Så-tips" knapp centrering */
     .så-tips-btn, .planterade-plantor-btn {
         align-self: center;
     }
-
+    /* Grid layout / styling mobile view */
     .grid-section {
         grid-template-columns: 1fr 1fr;
         padding: 1rem;
@@ -631,11 +635,11 @@ footer a {
             font-size: 18px;
             font-weight: 600;
         }
-
+        /* Göm ta-bort knapp */
         .ta-bort-btn {
             display: none;
         }
-
+        /* Visa trash knapp */
         .trash{
             display: block;
             padding: 0;
@@ -643,34 +647,31 @@ footer a {
         }
     }
 
-
+    /* Grid max-height mobile view */
     .grid-view-1,.grid-view-2,.grid-view-3,
     .grid-view-4,.grid-view-5,.grid-view-6 {
         max-height: 20rem;
     }
-
-    .main-h1 {
-        font-size: 2rem;
-    }
-
+   
+    /* h2 top och bottom section */
     .top-main-text h2, .bottom-main-text h2 {
         font-size: 1.5rem;
     }
-
+    /* p text top och bottom */
     .top-main-text, .bottom-main-text {
         margin-left: 0;
     }
-
+    /* Styling knappar */
     .så-tips-btn, .visa-fler-btn, .planterade-plantor-btn {
         padding: 0.5rem 1.7rem;
         border-radius: 12px;
         margin: 1.5rem 0;
     }
-
+    /* Botten av main gap */
     .bottom-main-box {
         row-gap: 3rem;
     }
-
+    /* Footer grid section */
     .footer-img {
         display: grid;
         grid-template-columns: 1fr;
@@ -689,28 +690,30 @@ footer a {
     .mina-sidor-logo {
         height: 30rem;
     }
-
+    /* Form styling mobile view */
     .mina-sidor-input {
         flex-direction: column;
     }
-
+    /* Grid 1 styling mobile view */
     .mina-sidor-planned-1 {
         grid-template-columns: 1fr;
         width: 50%;
         min-width: 183px;
     }
-
+    /* Grid 2 styling mobile view */
     .mina-sidor-planned-2 {
         grid-template-columns: 1fr 1fr;
         column-gap: 1rem;
         min-width: 350px;
-        }
-
+    }
+    /* Gemensam styling grid 1 och 2 */
     .mina-sidor-planned-1, .mina-sidor-planned-2 {
         margin-bottom: 5rem;
             .grid-view-1 {
              height: 20rem;
              column-gap: 10px;
+             
+             /* Göm logo i mobile view */
              img {
                 display: none;
                 }
@@ -728,12 +731,12 @@ footer a {
                 font-size: 24px;
                 font-weight: 400;
             }
-
+            /* Göm ta-bort knapp */
             .ta-bort-btn {
                 display: none;
 
             }
-
+            /* Visa trash knapp */
             .trash{
                 display: block;
                 padding: 0;
@@ -741,22 +744,23 @@ footer a {
             }
         }
     }
-
+    /* Mina sidor h2 styling */
     .mina-sidor-main h2 {
         font-size: 1rem;
     }
-
-    .form-wrapper { /* Wrappar runt hela formen */
+    
+    /* Wrappar runt hela formen */
+    .form-wrapper { 
         align-items: flex-start;
         margin-left: 1rem;
 
     }
-
+    /* Wrapper runt h2 i form */
     .form-wrapper h2 {
         align-self: center;
 
     }
-
+    /* Add knapp styling */
     .add-btn{
         align-self: center ;
         padding: .6rem 1.5rem;
@@ -769,10 +773,9 @@ footer a {
     .footer-grid{
         grid-template-columns: repeat(2, 1fr);
         padding: 0 1rem;
+        /* Footer bilder gemensam styling */
         .footer-image-1, .footer-image-2, .footer-image-3, .footer-image-4 {
             height: 7.5rem;
-
-
         }
         .footer-image-1, .footer-image-2{
             margin-bottom:0 ;
