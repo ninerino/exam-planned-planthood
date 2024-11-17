@@ -463,9 +463,9 @@ footer a {
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     color: white;
     font-family: 'Maven Pro', sans-serif;
 }
@@ -505,7 +505,6 @@ footer a {
 }
 /* Form label/input wrapper styling */
 .mina-sidor-input input {
-
     width: 100%;
     padding: 8px;
     border: 1px solid #FFFFFF;
@@ -516,7 +515,6 @@ footer a {
 /* Grid för korten */
 .mina-sidor-planned-1, .mina-sidor-planned-2 {
     width: 100%;
-    min-width: 800px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -623,7 +621,7 @@ footer a {
     .så-tips-btn, .planterade-plantor-btn {
         align-self: center;
     }
-    /* Grid layout / styling mobile view */
+    /* Grid layout för index / styling mobile view */
     .grid-section {
         grid-template-columns: 1fr 1fr;
         padding: 1rem;
@@ -790,7 +788,5 @@ footer a {
         .footer-image-3, .footer-image-4{
             margin-top: 1rem;
         }
-
     }
-
 }
