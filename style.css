@@ -706,14 +706,9 @@ footer a {
     .mina-sidor-input {
         flex-direction: column;
     }
-    /* Grid 1 styling mobile view */
-    .mina-sidor-planned-1 {
-        grid-template-columns: 1fr;
-        width: 50%;
-        min-width: 183px;
-    }
-    /* Grid 2 styling mobile view */
-    .mina-sidor-planned-2 {
+
+    /* Grid min sidor styling mobile view */
+    .mina-sidor-planned-1,.mina-sidor-planned-2 {
         grid-template-columns: 1fr 1fr;
         column-gap: 1rem;
         min-width: 350px;
