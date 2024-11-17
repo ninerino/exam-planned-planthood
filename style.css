@@ -15,7 +15,7 @@ body {
     align-items: flex-start;
 }
 
-/* Wrapper runt allt content */
+/* Wrapper runt allt innehåll */
 .wrapper {
     max-width: 1000px;
     background-color: #FFFFFF;
@@ -86,7 +86,6 @@ body {
     display: none;
 }
 
-
 /* ****** NAVIGATION MENY ****** */
 .navigation {
     display: flex;
@@ -98,7 +97,7 @@ body {
     font-weight: 600;
     justify-content: space-around;
 
-    /* Stylar a i menyn med storleken och färg samt håller den klickbar */
+    /* Stylar a i menyn med storlek och färg samt håller den klickbar */
     a {
         text-decoration: none;
         color: inherit;
@@ -363,7 +362,6 @@ background-image: url(https://images.unsplash.com/photo-1518568403628-df55701ade
 /* Hover på soptunneikonen */
 .trash:hover {
     cursor: pointer;
-
 }
 
 /* Styling på boxen under korten */
